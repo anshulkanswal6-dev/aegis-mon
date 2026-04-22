@@ -98,70 +98,68 @@ const Home2 = () => {
                 <p>Choose a plan that fits your team's needs, from startup to enterprise.</p>
                 
             </div>
-            <div className='flex flex-col lg:flex-row w-full mb-32 lg:mb-40 px-4 sm:px-10 lg:px-40 gap-16 lg:gap-8 max-w-7xl'>
-                <div className='border flex flex-col justify-between border-gray-300 rounded-xl p-8 sm:p-10 h-auto lg:h-150 w-full lg:w-1/3 shadow-sm'>
-                    <div className='text-2xl sm:text-3xl'>
-                    <h3 className='text-gray-500 text-sm uppercase tracking-widest mb-1'>Basic</h3>
-                    <h2 className='text-orange-600 font-bold'>$0/month</h2>
+            <div className='flex flex-col lg:flex-row w-full mb-32 lg:mb-40 px-6 lg:px-40 gap-5 max-w-7xl'>
+                <div className=' border flex flex-col justify-between border-gray-300 rounded-md p-6 h-auto lg:h-150 w-full lg:w-1/3'>
+                    <div className='text-3xl'>
+                    <h3>Basic</h3>
+                    <h2 className='text-orange-600 font-medium'>$0/month</h2>
                     </div>
-                    <p className='text-lg sm:text-xl mt-4'>For Beta Users of AEGIS V1. Explore the future of onchain agents.</p>
+                    <p className='text-xl'>For Beta Users <br /> of AEGIS V1. <br /><br /></p>
                     <div 
-                      className='bg-black text-white text-lg font-medium text-center rounded-full py-4 mt-8 cursor-pointer hover:bg-gray-900'
+                      className='bg-black text-white text-xl text-center rounded-full py-3 px-6 cursor-pointer hover:bg-gray-900'
                       onClick={() => navigate('/app')}
                     >
                       Start Now
                     </div>
 
-                    <div className='text-gray-600 flex flex-col gap-4 mt-10'>
-                        <h1 className='text-black font-bold uppercase text-xs tracking-wider'>What's included?</h1>
-                        <div className='flex flex-col gap-3'>
-                            <li className='list-none flex items-center gap-2'>10 Automations / month </li>
-                            <li className='list-none flex items-center gap-2'>No Telegram Integrations</li>
-                            <li className='list-none flex items-center gap-2'>Email Integration Available</li>
-                            <li className='list-none flex items-center gap-2'>24/7 Slack support</li>
+                    <div className='text-gray-600 flex flex-col gap-2'>
+                        <h1 className='text-black'>What's included?</h1>
+                        <div className='flex flex-col ml-5 gap-2'>
+                        <li>10 Automations/ month </li>
+                        <li>No Telegram/discord Integrations</li>
+                        <li>Email Integration Availabe</li>
+                        <li>24/7 Slack support</li>
                         </div>
                     </div>
-                    <p className='text-gray-400 text-xs mt-6'>Early Bird Pricing</p>
+                    <p className='text-gray-500 text-sm'>Early Bird Pricing</p>
                 </div>
-
-                <div className='border flex bg-white flex-col justify-between border-orange-200 rounded-xl p-8 sm:p-10 h-auto lg:h-150 w-full lg:w-1/3 relative shadow-xl'>
-                    <div className='absolute top-0 right-0 bg-orange-600 text-white text-[10px] uppercase font-bold py-1.5 px-5 rounded-bl-xl rounded-tr-xl'>Most Popular</div>
-                    <div className='text-2xl sm:text-3xl'>
-                    <h3 className='text-gray-500 text-sm uppercase tracking-widest mb-1'>Plus</h3>
-                    <h2 className='text-orange-600 font-bold'>$19/month</h2>
+                <div className=' border flex bg-white flex-col justify-between border-gray-300 rounded-md p-6 h-auto lg:h-150 w-full lg:w-1/3 relative'>
+                    <div className='absolute top-0 right-0 bg-orange-600 text-white text-[10px] uppercase font-bold py-1 px-4 rounded-bl-lg'>Most Popular</div>
+                    <div className='text-3xl'>
+                    <h3>Plus</h3>
+                    <h2 className='text-orange-600 font-medium'>$19/month</h2>
                     </div>
-                    <p className='text-lg sm:text-xl mt-4'>The essential toolkit for small teams and developers.</p>
-                    <div className="bg-gradient-to-r from-orange-500 text-lg to-pink-800 text-white text-center rounded-full py-4 mt-8">Not Available Yet </div>
+                    <p className='text-xl'>The essential toolkit for small teams and developers.</p>
+                    <div className="bg-gradient-to-r from-orange-500 text-xl to-pink-800 text-white text-center rounded-full py-3 px-6">Not Available Yet </div>
 
-                    <div className='text-gray-600 flex flex-col gap-4 mt-10'>
-                        <h1 className='text-black font-bold uppercase text-xs tracking-wider'>What's included?</h1>
-                        <div className='flex flex-col gap-3'>
-                            <li className='list-none flex items-center gap-2'>10 Automation / per day </li>
-                            <li className='list-none flex items-center gap-2'>Email integration</li>
-                            <li className='list-none flex items-center gap-2'>Telegram & Discord Bots</li>
-                            <li className='list-none flex items-center gap-2'>Priority support</li>
+                    <div className='text-gray-600 flex flex-col gap-2'>
+                        <h1 className='text-black'>What's included?</h1>
+                        <div className='flex flex-col ml-5 gap-2'>
+                        <li>10 Automation/per day </li>
+                        <li>Email integration</li>
+                        <li>Telegram & Discord Integrations</li>
+                        <li>Priority support</li>
                         </div>
                     </div>
-                    <p className='text-gray-400 text-xs mt-6'>Launching Soon</p>
+                    <p className='text-gray-500 text-sm'>Launching Soon</p>
                 </div>
-
-                <div className='border text-white bg-black flex flex-col justify-between border-gray-800 rounded-xl p-8 sm:p-10 h-auto lg:h-150 w-full lg:w-1/3 shadow-2xl'>
-                    <div className='text-2xl sm:text-3xl'>
-                    <h3 className='text-gray-400 text-sm uppercase tracking-widest mb-1'>Pro</h3>
-                    <h2 className='text-orange-600 font-bold'>$49/month</h2>
+                <div className=' border text-white bg-black flex flex-col justify-between border-gray-300 rounded-md p-6 h-auto lg:h-150 w-full lg:w-1/3'>
+                    <div className='text-3xl'>
+                    <h3>Pro</h3>
+                    <h2 className='text-orange-600 font-medium'>$49/month</h2>
                     </div>
-                    <p className='text-lg sm:text-xl mt-4'>For Organizations, DAOs & DeFi startups requiring scale.</p>
-                    <div className="bg-white/10 text-white/50 text-lg font-medium text-center rounded-full py-4 mt-8 cursor-not-allowed">Not Available Yet</div>
+                    <p className='text-xl'>For Organizations/DAOs & Defi startups.</p>
+                    <div className="bg-white text-black text-xl text-center rounded-full py-3 px-8 cursor-not-allowed opacity-50">Not Available Yet</div>
 
-                    <div className='text-gray-300 flex flex-col gap-4 mt-10'>
-                        <h1 className='text-white font-bold uppercase text-xs tracking-wider'>What's included?</h1>
-                         <div className='flex flex-col gap-3'>
-                            <li className='list-none flex items-center gap-2'>Custom Agent Templates</li>
-                            <li className='list-none flex items-center gap-2'>Dedicated Node Access</li>
-                            <li className='list-none flex items-center gap-2'>Priority support</li>
+                    <div className='text-gray-300 flex flex-col gap-2'>
+                        <h1 className='text-white'>What's included?</h1>
+                         <div className='flex flex-col ml-5 gap-2'>
+                        <li>Coming Soon</li>
+                        <li>Coming Soon</li>
+                        <li>Coming Soon</li>
                         </div>
                     </div>
-                    <p className='text-gray-500 text-xs mt-6'>Launching Soon</p>
+                    <p className='text-gray-400 text-sm'>Launching Soon</p>
                 </div>
             </div>
 
