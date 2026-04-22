@@ -50,13 +50,13 @@ const Nav = () => {
 
         {/* Mobile Menu Overlay */}
         {isMenuOpen && (
-          <div className="absolute top-full left-0 w-full bg-white border-b border-gray-200 lg:hidden flex flex-col p-6 gap-6 shadow-xl animate-in slide-in-from-top-2 duration-200">
-            <Link to="/" onClick={() => setIsMenuOpen(false)} className="text-lg font-medium border-b border-gray-50 pb-2">Home</Link>
-            <Link to="/#features" onClick={() => setIsMenuOpen(false)} className="text-lg font-medium border-b border-gray-50 pb-2">Features</Link>
-            <Link to="/#pricing" onClick={() => setIsMenuOpen(false)} className="text-lg font-medium border-b border-gray-50 pb-2">Pricing</Link>
-            <a href="/documentation" onClick={() => setIsMenuOpen(false)} className="text-lg font-medium border-b border-gray-50 pb-2">Docs</a>
+          <div className="absolute top-full left-0 w-full bg-white border-b border-gray-200 lg:hidden flex flex-col items-center p-10 gap-8 shadow-2xl animate-in slide-in-from-top-4 duration-300">
+            <Link to="/" onClick={() => setIsMenuOpen(false)} className="text-xl font-medium hover:text-orange-500 transition-colors w-full text-center">Home</Link>
+            <Link to="/#features" onClick={() => setIsMenuOpen(false)} className="text-xl font-medium hover:text-orange-500 transition-colors w-full text-center">Features</Link>
+            <Link to="/#pricing" onClick={() => setIsMenuOpen(false)} className="text-xl font-medium hover:text-orange-500 transition-colors w-full text-center">Pricing</Link>
+            <a href="/documentation" onClick={() => setIsMenuOpen(false)} className="text-xl font-medium hover:text-orange-500 transition-colors w-full text-center">Docs</a>
             <div 
-              className='bg-black text-white rounded-full py-3 px-6 text-center text-sm font-bold shadow-md'
+              className='bg-black text-white rounded-full py-4 px-10 text-center text-base font-bold shadow-lg w-full max-w-[280px] active:scale-95 transition-transform'
               onClick={() => {
                 setIsMenuOpen(false);
                 navigate('/app');
