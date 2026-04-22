@@ -23,7 +23,7 @@ const Home1 = () => {
     return (
         <div className='flex w-full flex-col items-center justify-center'>
 
-            <div className="w-100 overflow-hidden rounded-full mt-5 bg-[#f6f4f0]">
+            <div className="w-[90%] max-w-lg overflow-hidden rounded-full mt-5 bg-[#f6f4f0]">
                 <div className="whitespace-nowrap py-2 text-sm animate-marquee">
                     🎉 Exciting news! AEGIS V1 Beta is now live and ready to build onchain agents! 🎉 Exciting news! AEGIS V1 Beta is now live and ready to build onchain agents! 🎉 Exciting news! AEGIS V1 Beta is now live and ready to build onchain agents! 🎉 Exciting news! AEGIS V1 Beta is now live and ready to build onchain agents! 🎉 Exciting news! AEGIS V1 Beta is now live and ready to build onchain agents!
                 </div>
@@ -80,8 +80,8 @@ const Home1 = () => {
 
 
 
-            <div className='mt-32 lg:mt-40 flex flex-col gap-10 lg:gap-15 items-center px-6'>
-                <h3 className='text-3xl lg:text-4xl italic text-center'>Built for and deployed on these chains...</h3>
+            <div className='mt-32 lg:mt-40 flex flex-col gap-10 lg:gap-15 items-center px-6 w-full'>
+                <h3 className='text-xl sm:text-3xl lg:text-4xl italic text-center'>Built for and deployed on these chains...</h3>
                 <div className="relative w-full overflow-hidden">
                     {/* Fade overlays */}
                     <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-30 bg-gradient-to-r from-white/70 to-transparent" />
