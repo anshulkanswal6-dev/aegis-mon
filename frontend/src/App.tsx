@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { AppShell } from './app/AppShell';
 import LandingPage from './pages/LandingPage';
 import OnboardingPage from './pages/OnboardingPage';
-import SolutionEnterprise from './pages/SolutionEnterprise';
 import WalletPage from './pages/WalletPage';
 import PlaygroundPage from './pages/PlaygroundPage';
 import ProjectsPage from './pages/ProjectsPage';
@@ -29,7 +28,6 @@ function App() {
       <AppShell>
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="/solutions/enterprise" element={<SolutionEnterprise />} />
           <Route path="/app" element={<OnboardingPage />} />
           <Route path="/wallet" element={<WalletPage />} />
           
