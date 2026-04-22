@@ -98,7 +98,7 @@ const Home2 = () => {
                 <p>Choose a plan that fits your team's needs, from startup to enterprise.</p>
                 
             </div>
-            <div className='flex flex-col lg:flex-row w-full mb-32 lg:mb-40 px-6 lg:px-40 gap-5 max-w-7xl'>
+            <div className='flex flex-col lg:flex-row w-full mb-32 lg:mb-40 px-6 lg:px-40 gap-12 lg:gap-8 max-w-7xl'>
                 <div className=' border flex flex-col justify-between border-gray-300 rounded-md p-6 h-auto lg:h-150 w-full lg:w-1/3'>
                     <div className='text-3xl'>
                     <h3>Basic</h3>
