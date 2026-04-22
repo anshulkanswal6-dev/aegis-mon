@@ -35,10 +35,10 @@ const Home3 = () => {
     };
 
     return (
-        <div className='px-6 lg:px-40 flex flex-col mb-10 mt-10 gap-20 lg:gap-60 py-20 max-w-7xl mx-auto w-full'>
-            <div>
-                <h1 className='text-5xl text-center lg:text-left'>FAQ</h1>
-                <div className='mt-12 lg:mt-20'>
+        <div className='px-6 md:px-20 lg:px-40 flex flex-col mb-10 mt-10 gap-16 lg:gap-60 py-10 lg:py-20 max-w-7xl mx-auto w-full'>
+            <div className="w-full">
+                <h1 className='text-4xl lg:text-5xl text-center lg:text-left font-felipa'>FAQ</h1>
+                <div className='mt-10 lg:mt-20'>
                     {faqs.map((faq, index) => (
                         <div 
                             key={index} 

@@ -29,50 +29,52 @@ const Home1 = () => {
                 </div>
             </div>
 
-            <div className='text-center flex mt-13 flex-col gap-5 items-center w-full max-w-4xl px-6'>
+            <div className='text-center flex mt-8 md:mt-13 flex-col gap-5 items-center w-full max-w-4xl px-6'>
                
-                <h1 className='text-5xl md:text-6xl lg:text-8xl mb-1 font-felipa text-[#373533] leading-tight'>Agentic Execution Layer for Onchain Jobs</h1>
-                <p className='text-base md:text-lg max-w-4xl'>Build powerful onchain AI agents effortlessly using simple natural language prompts. <br className='hidden md:block' />
+                <h1 className='text-4xl sm:text-6xl lg:text-8xl mb-1 font-felipa text-[#373533] leading-tight'>Agentic Execution Layer for Onchain Jobs</h1>
+                <p className='text-sm sm:text-base md:text-lg max-w-3xl'>Build powerful onchain AI agents effortlessly using simple natural language prompts. <br className='hidden md:block' />
                 No prior smart contract expertise or complex SDK setup required to get started.</p>
-                <div className='flex flex-col sm:flex-row w-full sm:w-auto mt-6 text-sm gap-3'>
+                <div className='flex flex-col sm:flex-row w-full sm:w-auto mt-4 sm:mt-6 text-sm gap-3'>
                     <div 
-                      className='bg-black text-white rounded-full hover:bg-gray-900 py-3 px-8 text-center cursor-pointer'
+                      className='bg-black text-white rounded-full hover:bg-gray-900 py-3 px-8 text-center cursor-pointer transition-all active:scale-95'
                       onClick={() => navigate('/app')}
                     >
                       Get Started
                     </div>
-                    <div className='border border-gray-300 font-medium hover:bg-gray-100 rounded-full py-3 px-8 text-center cursor-pointer'>View Docs</div>
+                    <div className='border border-gray-300 font-medium hover:bg-gray-100 rounded-full py-3 px-8 text-center cursor-pointer transition-all active:scale-95'>View Docs</div>
                 </div>
             </div>
-            <div className="flex flex-col lg:flex-row gap-4 mt-10 lg:mt-31 px-6 w-full max-w-7xl justify-center">
+            <div className="flex flex-col lg:flex-row gap-4 mt-12 lg:mt-31 px-4 sm:px-6 w-full max-w-7xl justify-center items-center lg:items-stretch">
                 <img
-                    className="h-[300px] md:h-[450px] lg:h-115 w-full lg:w-1/3 shadow-xl rounded-md object-cover object-top"
+                    className="h-[250px] sm:h-[400px] lg:h-115 w-full lg:w-1/3 shadow-xl rounded-md object-cover object-top"
                     src={tx2}
                     alt="Transactions Dashboard"
                 />
                 <div
                     className="
-                    flex flex-col items-center px-7 pt-7 overflow-hidden
-                    h-[300px] md:h-[450px] lg:h-115
+                    flex flex-col items-center px-6 sm:px-7 pt-6 sm:pt-7 overflow-hidden
+                    h-[250px] sm:h-[400px] lg:h-115
                     w-full lg:w-1/3
                     bg-[url('https://framerusercontent.com/images/Umwe05l5zhsyeIIzcMBfDuzDatU.webp')] 
                     bg-cover bg-center bg-orange-500 bg-blend-multiply
                     rounded-md 
                 ">
-                    <div className='bg-black/40 rounded-md flex items-center gap-5 justify-center text-white w-full py-3'>
-                        <img className='h-7 uppercase' src="https://framerusercontent.com/images/uijBCMcq0cF8Mi9JorcmB8XUmU.svg" alt="" />
-                        <h1 className='text-sm md:text-base'>Build Your First Onchain Agent</h1>
+                    <div className='bg-black/40 rounded-md flex items-center gap-3 sm:gap-5 justify-center text-white w-full py-2 sm:py-3'>
+                        <img className='h-5 sm:h-7 uppercase' src="https://framerusercontent.com/images/uijBCMcq0cF8Mi9JorcmB8XUmU.svg" alt="" />
+                        <h1 className='text-xs sm:text-sm md:text-base font-medium'>Build Your First Onchain Agent</h1>
                     </div>
                     <img
-                        className="rounded-md mt-5 object-cover object-top h-full w-full"
+                        className="rounded-md mt-4 sm:mt-5 object-cover object-top h-full w-full"
                         src={agent}
                         alt="Agent Dashboard"
                     />
                 </div>
-                <div className="h-115 w-115 flex flex-col justify-between rounded-md text-white p-5 bg-black">
-                    <h1 className='text-3xl'>“AEGIS feels like the missing execution layer of Web3  <br />   where ideas become on-chain actions without <br /> friction.”</h1>
-                    <div className='text-sm text-gray-400'>
-                        <p>Kartikey Garg</p>
+                <div className="h-auto min-h-[300px] sm:h-115 w-full lg:w-1/3 flex flex-col justify-between rounded-md text-white p-6 sm:p-8 bg-black">
+                    <h1 className='text-xl sm:text-2xl lg:text-3xl font-light leading-relaxed'>
+                      “AEGIS feels like the missing execution layer of Web3 where ideas become on-chain actions without friction.”
+                    </h1>
+                    <div className='text-xs sm:text-sm text-gray-400 mt-8'>
+                        <p className="font-bold text-white">Kartikey Garg</p>
                         <p>Developer Activations, Monad Foundation</p>
                     </div>
                 </div>
