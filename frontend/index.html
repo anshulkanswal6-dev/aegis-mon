@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="apple-touch-icon" href="/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Felipa&family=Fjalla+One&family=Italianno&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>AEGIS | Build Onchain Automations With Ease</title>
+    <meta name="description" content="AEGIS is the ultimate onchain automation platform. Build, deploy, and manage intelligent crypto agents and web3 automations with ease on Monad and beyond." />
+    <meta name="keywords" content="AEGIS, onchain automation, crypto agents, web3 automations, Monad testnet, blockchain automation, intelligent agents, AEGIS platform" />
+    <link rel="canonical" href="https://aegis.live/" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://aegis.live/" />
+    <meta property="og:title" content="AEGIS | Build Onchain Automations With Ease" />
+    <meta property="og:description" content="Build, deploy, and manage intelligent crypto agents and web3 automations with ease." />
+    <meta property="og:image" content="/logo.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://aegis.live/" />
+    <meta property="twitter:title" content="AEGIS | Build Onchain Automations With Ease" />
+    <meta property="twitter:description" content="Build, deploy, and manage intelligent crypto agents and web3 automations with ease." />
+    <meta property="twitter:image" content="/logo.png" />
+
+    <script>
+      // Prevent flash of wrong theme
+      (function(){
+        var t=localStorage.getItem('aegis-theme')||'dark';
+        var d=t==='dark'||(t==='system'&&window.matchMedia('(prefers-color-scheme:dark)').matches);
+        if(d)document.documentElement.classList.add('dark');
+        document.documentElement.style.colorScheme=d?'dark':'light';
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
